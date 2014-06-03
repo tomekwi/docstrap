@@ -674,6 +674,14 @@ dt h4 {
   padding-top: 50px;
   margin-top: 50px;
   border-top: 2px dotted lightgrey;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+dt h4 .type-signature {
+  font-weight: normal;
+  font-size: 0.7em;
+  display: block;
+  float: right;
 }
 .page-header {
   padding-bottom: 9px;
