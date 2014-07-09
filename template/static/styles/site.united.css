@@ -207,7 +207,7 @@ textarea {
 body {
   margin: 0;
   font-family: 'Ubuntu', Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
@@ -617,7 +617,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 30px 0;
   font-family: inherit;
   font-weight: normal;
   line-height: 20px;
@@ -1734,7 +1734,6 @@ table {
 .table th,
 .table td {
   padding: 8px;
-  line-height: 20px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -5570,4 +5569,10 @@ h3.subsection-title {
 }
 .optional:after {
   content: ']';
+}
+p, dd, dt, table {
+  line-height: 1.7;
+}
+h4.name {
+  font-size: 27px;
 }
