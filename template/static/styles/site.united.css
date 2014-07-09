@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,300italic);
 /*!
  * Bootstrap v2.3.2
  *
@@ -5556,4 +5556,18 @@ code {
   font-size: 12px;
   line-height: 15px;
   padding: 12px 4px !important;
+}
+h3.subsection-title {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  text-align: right;
+  margin-bottom: -40px;
+}
+.optional:before {
+  content: '[';
+}
+.optional:after {
+  content: ']';
 }
